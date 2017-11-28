@@ -5,6 +5,7 @@ $page = 'music';
 
 <!DOCTYPE html>
 <html lang=en>
+<head>
 <?php
 ob_start();
 include("includes/head.php");
@@ -13,6 +14,8 @@ ob_end_clean();
 $buffer=str_replace("%TITLE%","Cool City Band - Music",$buffer);
 echo $buffer;
 ?>
+<meta name="description" content="Hear a mix of music styles from Cool City Band. Our goal is to provide a high entertainment value and fill the dance floor at your wedding, fundraiser, gala or special event.">
+</head>
 
 <body>
 <!-- Navigation -->

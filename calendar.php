@@ -5,8 +5,7 @@ $page = 'calendar';
 
 <!DOCTYPE html>
 <html lang=en>
-
-
+<head>
 <?php
 ob_start();
 include("includes/head.php");
@@ -15,6 +14,8 @@ ob_end_clean();
 $buffer=str_replace("%TITLE%","Cool City Band - Calendar",$buffer);
 echo $buffer;
 ?>
+<meta name="description" content="">
+</head>
 
 <body>
 <!-- Navigation -->

@@ -5,10 +5,7 @@ $page = 'contact';
 
 <!DOCTYPE html>
 <html lang=en>
-
-
-
-
+<head>
 <?php
 ob_start();
 include("includes/head.php");
@@ -17,44 +14,26 @@ ob_end_clean();
 $buffer=str_replace("%TITLE%","Cool City Band - Contact",$buffer);
 echo $buffer;
 ?>
-
-
+<meta name="description" content="">
+</head>
 
 <body>
 <!-- Navigation -->
 <?php include ('includes/navigation.php') ?>
 <section class="section1">
-    <div class="container" style="min-height:900px"> 
+    <div class="container" style="min-height:900px">
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Contact Us </h1>
             </div>
-            
         </div>
         <div class="row section-content">
-     <div class="col-md-8"> 
-     
-     
-     
-     
-     <p class="lead">
-     
-    Thank You!
-     
-     Your message has been sent, we'll be in touch shortly. 
-     
-     </p>
-     
-     </div>
-        
-        
-        
-        
-        
-        
-        
-        
-<div class="col-md-4">
+            <div class="col-md-8">
+                <p class="lead"> Thank You!
+                    
+                    Your message has been sent, we'll be in touch shortly. </p>
+            </div>
+            <div class="col-md-4">
                 <h3>Business Agent/Bookings</h3>
                 <p> <strong>David Leonards</strong><br>
                     International Entertainment Bureau<br>

@@ -5,6 +5,7 @@ $page = 'contact';
 
 <!DOCTYPE html>
 <html lang=en>
+<head>
 <?php
 ob_start();
 include("includes/head.php");
@@ -13,7 +14,8 @@ ob_end_clean();
 $buffer=str_replace("%TITLE%","Cool City Band - Contact",$buffer);
 echo $buffer;
 ?>
-
+<meta name="description" content="Contact the Cool City Band to learn more about our packages, musicians, vocalists and availability in Indianapolis, Chicago, Louisville and Cincinnati.">
+</head>
 
 <body>
 <!-- Navigation -->
@@ -64,12 +66,11 @@ echo $buffer;
                         </div>
                     </div>
                     <div id="success"></div>
-                    <div class="g-recaptcha" data-sitekey="6Lf7uiYUAAAAAJWMcScnerXoHxPpdGUkz-Pj65Fe" data-callback="enableBtn"></div><br><br>
+                    <div class="g-recaptcha" data-sitekey="6Lf7uiYUAAAAAJWMcScnerXoHxPpdGUkz-Pj65Fe" data-callback="enableBtn"></div>
+                    <br>
+                    <br>
                     <!-- For success/fail messages -->
-                 <button type="submit" class="btn btn-primary" id="#submitform">Send Message</button>
-                    
-          
-                    
+                    <button type="submit" class="btn btn-primary" id="#submitform">Send Message</button>
                 </form>
             </div>
             <div class="col-md-4">
@@ -80,10 +81,10 @@ echo $buffer;
                     Indianapolis, Indiana 46205</p>
                 <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: 317.926.7566</p>
                 <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: 317.294.9977 (cell)</p>
-                <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="php/ieb@prodigy.net">ieb@prodigy.net</a> </p>
+                <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:ieb@prodigy.net">ieb@prodigy.net</a> </p>
                 <ul class="list-unstyled list-inline list-social-icons">
-                    <li> <a href="https://www.facebook.com/International-Entertainment-Bureau-158663914177229/"><i class="fa fa-facebook-square fa-2x"></i></a> </li>
-                    <li> <a href="https://twitter.com/Agent3612?lang=en"><i class="fa fa-twitter-square fa-2x"></i></a> </li>
+                    <li> <a href="https://www.facebook.com/International-Entertainment-Bureau-158663914177229/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a> </li>
+                    <li> <a href="https://twitter.com/Agent3612?lang=en" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a> </li>
                 </ul>
                 <h3>Leader/Conductor/Pianist</h3>
                 <p><strong>Roy Geesa</strong></p>
@@ -91,7 +92,7 @@ echo $buffer;
                 <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: 317-529-3640 (cell)</p>
                 <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:RGeesa@gregoryappel.com">RGeesa@gregoryappel.com</a> </p>
                 <ul class="list-unstyled list-inline list-social-icons">
-                    <li> <a href="https://www.facebook.com/Cool-City-Band-149866258393477/?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a> </li>
+                    <li> <a href="https://www.facebook.com/Cool-City-Band-149866258393477/?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a> </li>
                 </ul>
             </div>
         </div>
@@ -104,7 +105,6 @@ echo $buffer;
 
 <!-- /.container -->
 <?php include ('includes/scripts.php') ?>
-
 <script>
 $( document ).ready(function() {
 
@@ -116,9 +116,5 @@ if (grecaptcha.getResponse() == ""){
 
 });
 </script>
-
-
-
-
 </body>
 </html>

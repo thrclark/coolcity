@@ -5,8 +5,7 @@ $page = 'packages';
 
 <!DOCTYPE html>
 <html lang=en>
-
-
+<head>
 <?php
 ob_start();
 include("includes/head.php");
@@ -15,6 +14,8 @@ ob_end_clean();
 $buffer=str_replace("%TITLE%","Cool City Band - Packages",$buffer);
 echo $buffer;
 ?>
+<meta name="description" content="From Trio to Full Band with DJ, we offer a variety of options to fit any wedding, fundraiser, special event or gala in Indianapolis, Chicago, Louisville or Cincinnati.">
+</head>
 
 <body>
 <!-- Navigation -->
@@ -24,7 +25,7 @@ echo $buffer;
         <div class="row section-content" style="min-height:900px">
             <div class="col-lg-12">
                 <h2 class="page-header">Packages</h2>
-                <p> Pricing varies according to location, travel requirements, staging, date, etc. Custom event packages can always be created. Concerts are individually staged. Please contact us with your event/concert details for a free quote. </p>
+                <p> The Cool City Band is available for engagements throughout the Midwest including Louisville, Cincinnati, Chicago and Indianapolis. Pricing varies according to location, travel requirements, staging, date, etc. Custom event packages can always be created. Concerts are individually staged. Please contact us with your event/concert details for a free quote. </p>
             </div>
             <div class="col-lg-12">
                 <div class="row pricing-table" style="margin-top:30px">

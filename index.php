@@ -5,6 +5,7 @@ $page = 'home';
 
 <!DOCTYPE html>
 <html lang=en>
+<head>
 <?php
 ob_start();
 include("includes/head.php");
@@ -13,6 +14,8 @@ ob_end_clean();
 $buffer=str_replace("%TITLE%","Indianapolis Wedding Music, Corporate Entertainment, and Party Band - Cool City Band",$buffer);
 echo $buffer;
 ?>
+<meta name="description" content="Cool City Band – live music, weddings, fundraisers, galas, special events, and concerts. Experienced, talented musicians and vocalists play a variety of popular tunes.">
+</head>
 
 <body>
 <!-- Navigation -->
@@ -58,19 +61,23 @@ echo $buffer;
     <div class="container ">
         <div class="row section-content">
             <div class="col-lg-12">
-                <h2 class="page-header">Classy Music, Unforgettable Events</h2>
+                <h2 class="page-header">Weddings, Fundraisers and Special Events</h2>
             </div>
             <div class="col-md-4 img-portfolio"> <img class="img-responsive img-hover img-thumbnail" src="img/marketing/weddings.png" alt="Cool City Band">
                 <h3>Weddings</h3>
-                <p>Make your  wedding day one to never forget. Cool City provides the perfect atmosphere to make your wedding an event of a lifetime. Special requests for your first dance? We can do it! <a class="" href="contact.php">Book now! »</a></p>
+                <p>Make your wedding unforgettable. Cool City Band provides the perfect atmosphere to make your wedding reception the event of a lifetime. Special requests for your first dance? We can do it! <a class="" href="contact.php">Book now!</a></p>
             </div>
             <div class="col-md-4 img-portfolio"> <img class="img-responsive img-hover img-thumbnail" src="img/marketing/galas.png" alt="Laney Wilson">
                 <h3>Fund Raisers / Galas</h3>
-                <p>Impress your guests and donors by adding a touch of musical elegance to your event. Cool City is the perfect solution for classy dinner music, lively dance sets, and an all-around perfect evening. <a class="" href="contact.php">Book now! »</a></p>
+                <p>Impress your guests and donors by adding a touch of musical elegance to your event. Cool City is the perfect solution for classy dinner music, lively dance sets, and an all-around perfect evening. <a class="" href="contact.php">Book now!</a></p>
             </div>
             <div class="col-md-4 img-portfolio"> <img class="img-responsive img-hover img-thumbnail" src="img/marketing/events.png" alt="Swing Dance Event">
                 <h3>Concerts &amp; Special Events</h3>
-                <p>Engaging, entertaining vocalists backed by virtuoso musicians will deliver an impressive musical experience. With a wide selection of music, Cool City appeals to all. <a class="" href="contact.php">Book now! »</a></p>
+                <p>Engaging, entertaining vocalists backed by virtuoso musicians will deliver an impressive musical experience. With a wide selection of music, Cool City appeals to all. <a class="" href="contact.php">Book now!</a></p>
+            </div>
+            <div class="col-lg-12">
+                <h3 class="">Unforgettable Live Music</h3>
+                <p> Whether you are looking for a full 11 piece band and DJ, a quintet or a trio this experienced group of top-notch musicians has you covered. Cool City Band offers a variety of <a href="packages.php">live music packages</a> appropriate for any occasion including weddings, anniversaries, galas, concerts and fundraisers. With years of experience performing in Indianapolis, Chicago, Louisville, Cincinnati and throughout the Midwest, Cool City is professional, reliable and impressive. <a href="music.php">Give a listen</a> to the Cool City Band in action. Live wedding music makes a memorable day unforgettable.</p>
             </div>
         </div>
     </div>
@@ -137,6 +144,24 @@ echo $buffer;
                             <li><a href="mailto:ieb@prodigy.net,RGeesa@gregoryappel.com"><i class="fa fa-2x fa-envelope"></i><span class="sr-only">Email Us</span></a></li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about section2">
+    <div class="container "><!-- Marketing Icons Section -->
+        <div class="row section-content">
+            <div class="col-lg-12">
+                <h2 class="page-header">From Our Clients</h2>
+                <div class="text-block">
+                    <p>Thank you so much for helping to make our Gala a smashing success. We are so grateful and appreciative of such wonderful talent and professionalism. Please pass our accolades on to all the artists who Gave it their all and made us look so very good!</p>
+                    <footer>Donna <cite title="Source Title">Event Organizer</cite></footer>
+                </div>
+                <div class="text-block">
+                    <p>The family reunion that we planned was a huge success, and you are part of the reason it went so well. Thank you so much for coming all the way to Moline to play for our event.</p>
+                    <p>Both the three-piece and the full band did a marvelous job, and we received many comments on how good they were. We could not have asked for a more beautiful night for our formal event, and the wonderful voice of Shannon only added to the beauty. The reunion would not have been the same without the sounds of the Cool City Band. Thank you.</p>
+                    <footer>Adrienne <cite title="Source Title">Event Organizer</cite></footer>
                 </div>
             </div>
         </div>

@@ -9,8 +9,8 @@
             </div>
             <div class="col-md-3 text-right">
                 <ul class="list-unstyled list-inline list-social-icons">
-                    <li> <a href="https://www.facebook.com/Cool-City-Band-149866258393477/?fref=ts"><i class="fa fa-facebook-square fa-2x"></i><span class="sr-only">Cool City Facebook Page</span></a> </li>
-                    <li> <a href="mailto:ieb@prodigy.net,RGeesa@gregoryappel.com"><i class="fa fa-envelope fa-2x"></i> <span class="sr-only">Email Us</span></a> </li>
+                    <li> <a href="https://www.facebook.com/Cool-City-Band-149866258393477/?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i><span class="sr-only">Cool City Facebook Page</span></a> </li>
+                    <li> <a href="contact.php"><i class="fa fa-envelope fa-2x"></i> <span class="sr-only">Email Us</span></a> </li>
                    
                 </ul>
             </div>

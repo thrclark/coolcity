@@ -5,8 +5,7 @@ $page = 'testimonials';
 
 <!DOCTYPE html>
 <html lang=en>
-
-
+<head>
 <?php
 ob_start();
 include("includes/head.php");
@@ -15,6 +14,8 @@ ob_end_clean();
 $buffer=str_replace("%TITLE%","Cool City Band - Testimonials",$buffer);
 echo $buffer;
 ?>
+<meta name="description" content="Cool City Band wedding, fundraiser, gala and special event customers have great things to say about our premiere musicians and vocalists.">
+</head>
 
 <body>
 <!-- Navigation -->
@@ -27,7 +28,7 @@ echo $buffer;
             </div>
             <div class="col-lg-12">
                 <h3>Organizations</h3>
-                <p>We're proud to have collaborated with some of the most respected institutions and corporations across the midwest. Let Cool City add pizazz to your special events.</p>
+                <p>We're proud to have collaborated with some of the most respected institutions and corporations across the midwest. Let Cool City add live music to your special events.</p>
             </div>
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="http://www.lilly.com/Pages/Home.aspx" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-lilly.png" alt="Eli Lilly and Company"> </a></div>
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="http://www.ihca.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-ihca.png" alt="Indiana Health Care Association (IHCA) i"> </a></div>
@@ -43,8 +44,6 @@ echo $buffer;
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.kappaalphatheta.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-kappa.png" alt="Kappa Alpha Theta"> </a></div>
             <div class="col-lg-12">
                 <h3>Wedding/Private Events</h3>
-                
-                
                 <div class="text-block">
                     <p>Thank you for providing the entertainment for our wedding reception. The band was spectacular and received rave reviews from all our guests! We appreciate your flexibility with the timeshift and the enthusiasm you presented at the MC. Best wishes for continued musical success!</p>
                     <footer>Julie &amp; Brent <cite title="Source Title">Bride and Groom</cite></footer>

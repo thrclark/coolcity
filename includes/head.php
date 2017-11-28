@@ -1,10 +1,9 @@
-<head>
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>%TITLE%</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="Indianapolis Wedding Music, Indianapolis Ceremony Music, Indianapolis Musicians, Reception Music Indianapolis, Indianapolis Dance Bands, Indianapolis Party Bands, Indianapolis Jazz Quartet, Ceremony Music Indianapolis, Wedding Music Indianapolis, Wedding Bands Indianapolis, Reception Music Indianapolis, Big Bands Indianapolis, Swing Bands Indianapolis, Jazz Bands Indianapolis , Wedding Music Carmel, Wedding Bands Carmel, Reception Music Carmel, Wedding Music Bloomington, Wedding Bands Bloomington, Reception Music Bloomington, Wedding Music Lafayette, Wedding Bands Lafayette, Wedding Bands Chicago, Wedding Music Chicago,">
-<meta name="description" content="Cool City Band performs for weddings, fund-raisers, galas, special events, and concerts. This premiere group features the best musicians and vocalists playing a variety of popular tunes.">
 <meta name="author" content="Cool City Band">
 <link rel="stylesheet" type="text/css" href="node_modules/jplayer/dist/skin/blue.monday/css/jplayer.blue.monday.css">
 <link rel='stylesheet' href='bower_components/fullcalendar/dist/fullcalendar.css' />
@@ -35,4 +34,4 @@
 <meta name="msapplication-TileImage" content="app-icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <script src='https://www.google.com/recaptcha/api.js'></script>
-</head>
+

@@ -1,0 +1,58 @@
+.jp-audio {
+  width: 100%;
+}
+
+.jp-details, .jp-playlist {
+  width: 100%;
+  background-color: #ccc;
+  background-image: url(../img/background2.png);
+  border-top:none;
+}
+
+
+.jp-playlist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+
+.jp-audio, .jp-audio-stream, .jp-video {
+  font-size: 16px;
+  font-family:inherit;
+  line-height: 1.6;
+  color: inherit;
+  border:none;
+  background-color: #eee;
+}
+
+
+@media screen and (max-width: @screen-sm-min) {
+
+
+  .jp-audio .jp-controls {
+    width: 100%;
+  }
+
+  .jp-audio .jp-type-playlist .jp-progress {
+    display: none;
+  }
+
+  .jp-audio .jp-type-playlist .jp-time-holder {
+    display: none;
+  }
+
+  .jp-volume-controls {
+
+    left: inherit;
+    right: 0px;
+    width: 100px;
+
+  }
+  .jp-audio .jp-type-playlist .jp-toggles {
+    display: none;
+  }
+
+}
+

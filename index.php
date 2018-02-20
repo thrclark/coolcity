@@ -11,7 +11,7 @@ ob_start();
 include("includes/head.php");
 $buffer=ob_get_contents();
 ob_end_clean();
-$buffer=str_replace("%TITLE%","Indianapolis Wedding Music, Corporate Entertainment, and Party Band - Cool City Band",$buffer);
+$buffer=str_replace("%TITLE%","Indianapolis Wedding Music, Live Event Band and Gala Fundraiser Entertainment",$buffer);
 echo $buffer;
 ?>
 <meta name="description" content="Cool City Band – live music, weddings, fundraisers, galas, special events, and concerts. Experienced, talented musicians and vocalists play a variety of popular tunes.">
@@ -31,25 +31,25 @@ echo $buffer;
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image: url('img/hero/hero4.png');"></div>
+            <div class="fill" style="background-image: url('img/hero/hero9.png');"></div>
             <div class="carousel-caption two">
                 <div class="caption-block" style="">"We could not have asked for a more beautiful night..."</div>
             </div>
         </div>
         <div class="item ">
-            <div class="fill" style="background-image: url('img/hero/hero7.png');"></div>
+            <div class="fill" style="background-image: url('img/hero/hero10.png');"></div>
             <div class="carousel-caption four">
                 <div class="caption-block" style="">"Thank you for helping us make some wonderful memories..."</div>
             </div>
         </div>
         <div class="item ">
-            <div class="fill" style="background-image: url('img/hero/hero6.png');"></div>
+            <div class="fill" style="background-image: url('img/hero/hero11.png');"></div>
             <div class="carousel-caption one">
                 <div class="caption-block" style="">"The entertainment was truly memorable..."</div>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image: url('img/hero/hero8.png');"></div>
+            <div class="fill" style="background-image: url('img/hero/hero12.png');"></div>
             <div class="carousel-caption three">
                 <div class="caption-block" style="">"People were dancing even during dinner. It was a really nice touch..."</div>
             </div>
@@ -174,7 +174,7 @@ echo $buffer;
 <?php include ('includes/scripts.php') ?>
 <!-- Script to Activate the Carousel --><script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 50000 //changes the speed
     })</script> 
 <script>
     

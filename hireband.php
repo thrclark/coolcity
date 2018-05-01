@@ -23,13 +23,11 @@ echo $buffer;
 <section class="section1">
     <div class="container ">
         <div class="row section-content">
-         <h2 class="page-header">Hiring a band</h2>
-        <div class="col-md-12 hidden-xs"> <img src="img/hireband.png" class="img-responsive img-hover img-thumbnail" alt="Cool City Band" style="width:100%"> </div>
-        
-        
+            <h2 class="page-header">Hiring a band</h2>
+            <div class="col-md-12 hidden-xs"> <img src="img/hireband.png" class="img-responsive img-hover img-thumbnail" alt="Cool City Band" style="width:100%"> </div>
             <div class="col-lg-12">
-               <hr>
-                <p> 10 Tips for Hiring a Live Band for your Wedding, Fundraiser or Event</p>
+                <hr>
+                <p> <strong>10 Tips for Hiring a Live Band for your Wedding, Fundraiser or Event</strong></p>
                 <p>Live musical entertainment adds excitement and energy to any gathering. Whether you're planning your dream wedding reception, putting together a fundraiser for a good cause, or setting up a gala corporate celebration, a live musical band transforms your festivities into unforgettable enjoyment. To choose the right performers for your event, keep these important considerations in mind.</p>
                 <ol>
                     <li> Get a sense of (party) purpose. For example, if you're planning a company event, suit the entertainment to the reason for your gathering. Is it a formal occasion? Is it lighthearted? Are you aiming to impress a client or to celebrate a milestone? Choose the music-and the band-accordingly. </li>

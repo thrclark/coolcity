@@ -22,7 +22,7 @@ echo $buffer;
 <?php include ('includes/navigation.php') ?>
 <section class="section1">
     <div class="container ">
-        <div class="row section-content" style="min-height:900px">
+        <div class="row section-content">
             <div class="col-lg-12">
                 <h2 class="page-header">Packages</h2>
                 <p> The Cool City Band is available for engagements throughout the Midwest including Louisville, Cincinnati, Chicago and Indianapolis. Pricing varies according to location, travel requirements, staging, date, etc. Custom event packages can always be created. Concerts are individually staged. Please contact us with your event/concert details for a free quote. </p>
@@ -69,6 +69,26 @@ echo $buffer;
                             <li><a href="#" data-toggle="modal" data-target="#package4">more info </a></li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section2">
+    <div class="container "><!-- Marketing Icons Section -->
+        <div class="row section-content">
+            <div class="col-lg-12">
+                <h2 class="page-header">From Our Clients</h2>
+                <div class="text-block">
+                    <p> Thank you very much for your outstanding performance at our wedding reception on December 19. We are so appreciative for the special touches that you added to make our wedding day especially perfect.
+                        Jimmy's surprise renditions of "Three times a Lady" and "That's All" were beautiful, and guests really enjoyed the sultry vocals from Shannon on "I Just Want to Make Love to You". But we would be remiss if we didn't comment on the fun crowd-energizing sing-along "Minnie the Moocher".
+                        The entertainment was truly memorable and it was a pleasure working with you.</p>
+                    <footer>Laura & Mike <cite title="Source Title">Bride and Groom</cite></footer>
+                </div>
+                <div class="text-block">
+                    <p>The family reunion that we planned was a huge success, and you are part of the reason it went so well. Thank you so much for coming all the way to Moline to play for our event.
+                        Both the three-piece and the full band did a marvelous job, and we received many comments on how good they were. We could not have asked for a more beautiful night for our formal event, and the wonderful voice of Shannon only added to the beauty. The reunion would not have been the same without the sounds of the Cool City Band. Thank you. </p>
+                    <footer>Adrienne <cite title="Source Title">Event Organizer</cite></footer>
                 </div>
             </div>
         </div>

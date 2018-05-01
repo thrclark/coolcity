@@ -14,6 +14,34 @@ ob_end_clean();
 $buffer=str_replace("%TITLE%","Cool City Band - Contact",$buffer);
 echo $buffer;
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <meta name="description" content="">
 </head>
 
@@ -60,6 +88,30 @@ echo $buffer;
         
     </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php include ('includes/stayintouch.php') ?>
 <?php include ('includes/footer.php') ?>
 

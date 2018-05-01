@@ -33,10 +33,38 @@ echo $buffer;
             
             
                 <div class="well well-sm fotorama"   data-width="100%" data-ratio="800/600" data-navposition="top"  data-nav="thumbs" style="margin-top:30px"> 
-<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-002.png"> 
-<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-005.png"> 
-<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-006.png"> 
-<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-007.png"> 
+                
+                
+                
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics1.png"> 
+                
+                
+                       
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics2.png"> 
+                
+                     
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics3.png"> 
+                
+                     
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics4.png"> 
+                
+                     
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics5.png"> 
+                
+                     
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics6.png"> 
+                
+                     
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics7.png"> 
+                
+                     
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics8.png"> 
+                
+                     
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics9.png"> 
+                
+                     
+<img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/2018pics10.png"><img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-005.png"><img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-007.png"> 
 <img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-008.png"> 
 <img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-009.png"> 
 <img class="img-responsive" alt="Live performance with the Cool City Band" src="img/gallery/gallery-010.png"> 

@@ -84,7 +84,7 @@ echo $buffer;
                 <p><strong>Roy Geesa</strong></p>
                 <p> <i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: 317.926.7566</p>
                 <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: 317-529-3640 (cell)</p>
-                <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:RGeesa@gregoryappel.com">RGeesa@gregoryappel.com</a> </p>
+                <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:roygeesa@gmail.com">roygeesa@gmail.com</a> </p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li> <a href="https://www.facebook.com/Cool-City-Band-149866258393477/?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a> </li>
                 </ul>

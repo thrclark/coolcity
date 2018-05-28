@@ -268,19 +268,19 @@ echo $buffer;
             cssSelectorAncestor: "#jp_container_1"
         }, [
 			{ mp3: '../audio/2018-05-01-signedsealed.mp3', title: 'Signed Sealed Delivered',},
+			{ mp3: '../audio/2018-05-01-stuckinthemiddle.mp3', title: 'Stuck In The Middle With You',},
+			{ mp3: '../audio/2018-05-01-rocksteady.mp3', title: 'Rock Steady',},
+			{ mp3: '../audio/2018-05-01-knockonwood.mp3', title: 'Knock on Wood',},
+			{ mp3: '../audio/2018-05-01-sway.mp3', title: 'Sway',},
 			{ mp3: '../audio/2018-05-01-accentuate.mp3', title: 'Accentuate the Positive',},
 			{ mp3: '../audio/2018-05-01-blueskies.mp3', title: 'Blue Skies',},
-			{ mp3: '../audio/2018-05-01-gotitbad.mp3', title: 'I\'ve Got It Bad',},
 			{ mp3: '../audio/2018-05-01-iwontdance.mp3', title: 'I Won\'t Dance',},
-			{ mp3: '../audio/2018-05-01-knockonwood.mp3', title: 'Knock on Wood',},
 			{ mp3: '../audio/2018-05-01-niceeasy.mp3', title: 'Nice and Easy',},
-			{ mp3: '../audio/2018-05-01-rocksteady.mp3', title: 'Rock Steady',},
-			{ mp3: '../audio/2018-05-01-stuckinthemiddle.mp3', title: 'Stuck In The Middle With You',},
-			{ mp3: '../audio/2018-05-01-sway.mp3', title: 'Sway',},
 			{ mp3: '../audio/2018-05-01-thewayyoulook.mp3', title: 'The Way You Look Tonight',},
 			{ mp3: '../audio/2018-05-01-whereorwhen.mp3', title: 'Where or When',},
 			{ mp3: '../audio/coolcityband-01.mp3', title: 'I Love Being Here With You',}, 
 			{ mp3: '../audio/coolcityband-04.mp3', title: 'Route 66',}, 
+			{ mp3: '../audio/2018-05-01-gotitbad.mp3', title: 'I\'ve Got It Bad',},
 			{ mp3: '../audio/coolcityband-05.mp3', title: 'How Long Has This Been Going On?',}, 
 			{ mp3: '../audio/coolcityband-09.mp3', title: 'Let The Good Times Roll',}	
         ], {

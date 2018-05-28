@@ -27,7 +27,7 @@ echo $buffer;
                 <h2 class="page-header">Client Testimonials</h2>
             </div>
             <div class="col-lg-12">
-                <h3>Organizations</h3>
+                <h3>Corporate Clients</h3>
                 <p>We're proud to have collaborated with some of the most respected institutions and corporations across the midwest. Let Cool City add live music to your special events.</p>
             </div>
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="http://www.lilly.com/Pages/Home.aspx" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-lilly.png" alt="Eli Lilly and Company"> </a></div>
@@ -43,7 +43,7 @@ echo $buffer;
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.rotary.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-rotary.png" alt="Rotary International"> </a></div>
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.kappaalphatheta.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-kappa.png" alt="Kappa Alpha Theta"> </a></div>
             <div class="col-lg-12">
-                <h3>Wedding/Private Events</h3>
+                <h3>Private Parties and Weddings</h3>
                 <div class="text-block">
                     <p>Thank you for providing the entertainment for our wedding reception. The band was spectacular and received rave reviews from all our guests! We appreciate your flexibility with the timeshift and the enthusiasm you presented at the MC. Best wishes for continued musical success!</p>
                     <footer>Julie &amp; Brent <cite title="Source Title">Bride and Groom</cite></footer>

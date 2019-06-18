@@ -15,6 +15,14 @@ $buffer=str_replace("%TITLE%","Cool City Band - Music",$buffer);
 echo $buffer;
 ?>
 <meta name="description" content="Hear a mix of music styles from Cool City Band. Our goal is to provide a high entertainment value and fill the dance floor at your wedding, fundraiser, gala or special event.">
+
+<style>
+
+.playlist em {
+	color: #767676;
+    font-size: 12px;
+	}
+</style>
 </head>
 
 <body>
@@ -74,7 +82,7 @@ echo $buffer;
             <div class="col-lg-6 video">
                 <h3>Video</h3>
                 <div class="well well-sm">
-                    <iframe src="https://www.youtube.com/embed/le24pFMpSEY" style="border:none" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/DGY3AqC5Jyg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-lg-12">
@@ -87,23 +95,29 @@ echo $buffer;
                         <div id="collapse-one" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 <ul class="list-unstyled">
-                                    <li class="col-md-4">Beyond the Sea</li>
-                                    <li class="col-md-4">Come Fly with Me</li>
-                                    <li class="col-md-4">Crazy Llittle Thing Called Love</li>
-                                    <li class="col-md-4">Stuck In The Middle With You</li>
-                                    <li class="col-md-4">If You Love Me Like You Say</li>
+                                    <li class="col-md-4">At Last – <em>Etta James</em></li>
+                                    <li class="col-md-4">Beyond the Sea -  <em>Bobby Darrin</em></li>
+                                    <li class="col-md-4">Come Fly with Me -  <em>Sinatra</em></li>
+                                    <li class="col-md-4">Crazy Little Thing Called Love -  <em>Michael Buble</em></li>
+                                    <li class="col-md-4">Stuck in The Middle with You -  <em>Michael Buble</em></li>
                                     <li class="col-md-4">For Once in My Life</li>
-                                    <li class="col-md-4">Ive Got the World on a String</li>
-                                    <li class="col-md-4">Just the Way you Look Tonight</li>
-                                    <li class="col-md-4">Lady is  a Tramp</li>
-                                    <li class="col-md-4">Love is Here to Stay</li>
-                                    <li class="col-md-4">Mack the Knife</li>
-                                    <li class="col-md-4">Mambo #5</li>
-                                    <li class="col-md-4">Moondance</li>
-                                    <li class="col-md-4">Nice N' Easy Does It</li>
+                                    <li class="col-md-4">Ive Got the World on a String  -  <em>Sinatra</em></li>
+                                    <li class="col-md-4">Just the Way You Look Tonight  -  <em>Sinatra</em></li>
+                                    <li class="col-md-4">Lady is a Tramp - <em>Sinatra</em></li>
+                                    <li class="col-md-4">Love is Here to Stay -  <em>Ella Fitzgerald</em></li>
+                                    <li class="col-md-4">Mack the Knife  -  <em>Bobby Darrin</em></li>
+                                    <li class="col-md-4">Moondance  -  <em>Harry Connick</em></li>
+                                    <li class="col-md-4">Nice N' Easy Does It  -  <em>Sinatra</em></li>
                                     <li class="col-md-4">The Best is Yet to Come</li>
-                                    <li class="col-md-4">Where or When</li>
-                                    <li class="col-md-4">Save the Last Dance for Me</li>
+                                    <li class="col-md-4">Where or When  -  <em>Bobby Darin</em></li>
+                                    <li class="col-md-4">You Don’t Know Me - <em>Ray Charles</em></li>
+                                    <li class="col-md-4">A Kiss to Build A Dream On - <em>Louis Armstrong</em></li>
+                                    <li class="col-md-4">Save the last Dance for Me – <em>Michael Buble</em></li>
+                                    <li class="col-md-4">Sway – <em>Michael Buble</em></li>
+                                    <li class="col-md-4">Soul Man – <em>Blues Brothers</em></li>
+                                    <li class="col-md-4">September – <em>Earth Wind and Fire</em></li>
+                                    <li class="col-md-4">What a Wonderful World – <em>Louis Armstrong</em></li>
+                                    <li class="col-md-4">Signed Sealed Delivered – <em>Stevie Wonder</em></li>
                                 </ul>
                             </div>
                         </div>
@@ -115,45 +129,27 @@ echo $buffer;
                         <div id="collapse-two" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <ul class="list-unstyled">
-                                    <li class="col-md-4">634-5769</li>
-                                    <li class="col-md-4">Chappel of Love</li>
-                                    <li class="col-md-4">I Feel Good</li>
-                                    <li class="col-md-4">I Heard It through the Grapevine</li>
-                                    <li class="col-md-4">Johnny Be Goode</li>
-                                    <li class="col-md-4">Knock on Wood</li>
-                                    <li class="col-md-4">Midnight Hour</li>
-                                    <li class="col-md-4">Mr. Big Stuff</li>
-                                    <li class="col-md-4">Mustang Sally</li>
-                                    <li class="col-md-4">Old Time Rock and Roll</li>
-                                    <li class="col-md-4">Only In It For the Money</li>
-                                    <li class="col-md-4">Proud Mary</li>
-                                    <li class="col-md-4">Rock Around the Clock</li>
-                                    <li class="col-md-4">She Caught the Katy</li>
-                                    <li class="col-md-4">She Caught the Katy</li>
-                                    <li class="col-md-4">Shes Lookin Good</li>
-                                    <li class="col-md-4">Twist Medley</li>
-                                    <li class="col-md-4">Walkin the Dog</li>
-                                    <li class="col-md-4">Watermelon Man</li>
-                                    <li class="col-md-4">Wooly Bully</li>
-                                    <li class="col-md-4">You Don’t Know Me</li>
+                                    <li class="col-md-4">I Wish - <em>Stevie Wonder</em></li>
+                                    <li class="col-md-4">Signed Sealed Delivered – <em>Stevie Wonder</em></li>
+                                    <li class="col-md-4">Stuck in the Middle With You – <em>Michael Buble</em></li>
+                                    <li class="col-md-4">See Saw – <em>Aretha</em></li>
+                                    <li class="col-md-4">Sitting on the Dock of the Bay</li>
+                                    <li class="col-md-4">634-5769 – <em>Wilson Pickett</em></li>
+                                    <li class="col-md-4">Chappel of Love- <em>Dixie Cups</em></li>
+                                    <li class="col-md-4">I Feel Good - <em>James Brown</em></li>
+                                    <li class="col-md-4">I Heard It through the Grapevine – <em>MoTown</em></li>
+                                    <li class="col-md-4">Johnny Be Goode- <em>Chuck Berry</em></li>
+                                    <li class="col-md-4">Knock on Wood – <em>Eddie Floyd</em></li>
+                                    <li class="col-md-4">Midnight Hour - <strong>Wilson Pickett</strong></li>
+                                    <li class="col-md-4">Mr. Big Stuff – <em>Jean Knight</em></li>
+                                    <li class="col-md-4">Mustang Sally - <em>Wilson Pickett</em></li>
+                                    <li class="col-md-4">Old Time Rock and Roll -<em> Bob Seger</em></li>
+                                    <li class="col-md-4">She Caught the Katy - <em>Blues Brothers</em></li>
+                                    <li class="col-md-4">Twist Medley - <em>Chubby Checker</em></li>
+                                    <li class="col-md-4">Walkin the Dog - <em>Rolling Stones</em></li>
                                     <li class="col-md-4">Your Momma Don’t Dance</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-three">70's soft rock</a> </h4>
-                        </div>
-                        <div id="collapse-three" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <ul class="list-unstyled">
-                                    <li class="col-md-4">After the Lovin</li>
-                                    <li class="col-md-4">Didn’t We</li>
-                                    <li class="col-md-4">Evergreen</li>
-                                    <li class="col-md-4">From a Distance</li>
-                                    <li class="col-md-4">Theme From Ice Castles</li>
-                                    <li class="col-md-4">Traces</li>
+                                    <li class="col-md-4">You Send Me - <em>Sam Cooke</em></li>
+                                    <li class="col-md-4">Rock Steady – <em>Aretha</em></li>
                                 </ul>
                             </div>
                         </div>
@@ -168,11 +164,9 @@ echo $buffer;
                                     <li class="col-md-4">Bandstand Boogie</li>
                                     <li class="col-md-4">Boogie Bumper</li>
                                     <li class="col-md-4">Cottontail</li>
-                                    <li class="col-md-4">Hot Seats</li>
                                     <li class="col-md-4">In the Mood</li>
                                     <li class="col-md-4">Jump Jive and Wail</li>
                                     <li class="col-md-4">Jump with My Baby</li>
-                                    <li class="col-md-4">Jumpin Jack</li>
                                     <li class="col-md-4">Rock This Town</li>
                                     <li class="col-md-4">Two O'clock Jump</li>
                                     <li class="col-md-4">You and Me and Bottle makes Three</li>
@@ -221,123 +215,35 @@ echo $buffer;
                                 <ul class="list-unstyled">
                                     <li class="col-md-4">720 on the books</li>
                                     <li class="col-md-4">A Foggy Day</li>
-                                    <li class="col-md-4">A Nightingale Sang in Berkley Square</li>
-                                    <li class="col-md-4">Aint Misbehavin</li>
-                                    <li class="col-md-4">All of Me Instrumental</li>
-                                    <li class="col-md-4">All of Me Vocal</li>
-                                    <li class="col-md-4">All the Things You Are</li>
-                                    <li class="col-md-4">Arent you glad youre you</li>
-                                    <li class="col-md-4">Avalon</li>
-                                    <li class="col-md-4">Bill Bailey</li>
-                                    <li class="col-md-4">Blue Moon</li>
+                                    <li class="col-md-4">All of Me </li>
                                     <li class="col-md-4">Bye Bye Blackbird</li>
                                     <li class="col-md-4">C Jam Blues</li>
                                     <li class="col-md-4">Canadian Sunset</li>
-                                    <li class="col-md-4">Caravan</li>
-                                    <li class="col-md-4">Chattanooga Choo Choo</li>
-                                    <li class="col-md-4">Chattanooga Choo Choo</li>
-                                    <li class="col-md-4">Chattanooga/Kalamazoo/Tuxedo</li>
-                                    <li class="col-md-4">Coquette</li>
-                                    <li class="col-md-4">Dancing on the Ceiling</li>
-                                    <li class="col-md-4">Day in Day Out</li>
-                                    <li class="col-md-4">Days of Wine and Roses</li>
-                                    <li class="col-md-4">Deep Purple</li>
                                     <li class="col-md-4">Do Nothing Till You hear from Me</li>
                                     <li class="col-md-4">Don’t Get Around Much</li>
                                     <li class="col-md-4">Dream A Little Dream of Me</li>
-                                    <li class="col-md-4">Eager Beaver</li>
                                     <li class="col-md-4">Five Foot Two</li>
-                                    <li class="col-md-4">Five on A Time</li>
-                                    <li class="col-md-4">Georgia on My Mind-Instrumental</li>
-                                    <li class="col-md-4">Georgia on My Mind-Vocal</li>
-                                    <li class="col-md-4">Give Me the Simple Life</li>
+                                    <li class="col-md-4">Georgia on My Mind</li>
                                     <li class="col-md-4">Glory of Love</li>
-                                    <li class="col-md-4">Harlem Nocturne</li>
-                                    <li class="col-md-4">Have you Met Miss Jones</li>
-                                    <li class="col-md-4">How About You</li>
-                                    <li class="col-md-4">I cant give you anthing but love</li>
-                                    <li class="col-md-4">I Don’t Know Why</li>
-                                    <li class="col-md-4">I Got it Bad</li>
-                                    <li class="col-md-4">I RememberYou</li>
-                                    <li class="col-md-4">I'm gonna sit right down </li>
-                                    <li class="col-md-4">In  Mellow tone</li>
-                                    <li class="col-md-4">Isnt it Romantic</li>
-                                    <li class="col-md-4">It could happen to you</li>
-                                    <li class="col-md-4">It’s a Blue World</li>
-                                    <li class="col-md-4">Its only a Paper Moon</li>
-                                    <li class="col-md-4">Johnson Rag</li>
-                                    <li class="col-md-4">Just You Just Me</li>
-                                    <li class="col-md-4">Lullaby ofBroadway</li>
-                                    <li class="col-md-4">LuLus back in Town</li>
-                                    <li class="col-md-4">Melody of Love</li>
-                                    <li class="col-md-4">Miller Medley</li>
-                                    <li class="col-md-4">Mister Five by Five</li>
                                     <li class="col-md-4">Moonglow</li>
-                                    <li class="col-md-4">More I See You-Wolpe</li>
-                                    <li class="col-md-4">Mr. Lucky</li>
-                                    <li class="col-md-4">My heart stood still</li>
+                                    <li class="col-md-4">More I See You</li>
                                     <li class="col-md-4">Nice Work if You can Get It</li>
                                     <li class="col-md-4">Night and Day</li>
                                     <li class="col-md-4">Oh lady by good</li>
-                                    <li class="col-md-4">Oh You Beautiful doll</li>
-                                    <li class="col-md-4">On a Clear Day</li>
-                                    <li class="col-md-4">Out of Nowhere</li>
-                                    <li class="col-md-4">Peg O my heart</li>
-                                    <li class="col-md-4">Perdido</li>
-                                    <li class="col-md-4">Pink Panther</li>
                                     <li class="col-md-4">Route-66</li>
                                     <li class="col-md-4">Satin Doll</li>
                                     <li class="col-md-4">Sentimental Over You</li>
                                     <li class="col-md-4">September in the Rain</li>
                                     <li class="col-md-4">Shiny Stockings</li>
-                                    <li class="col-md-4">Singing the Blues</li>
-                                    <li class="col-md-4">Somebody Loves Me</li>
-                                    <li class="col-md-4">Stars Fell on Alabama</li>
-                                    <li class="col-md-4">Stella By Starlight</li>
                                     <li class="col-md-4">Stompin at the Savoy</li>
                                     <li class="col-md-4">String of Pearls</li>
                                     <li class="col-md-4">Swingtime in the Rockies</li>
                                     <li class="col-md-4">Take the A Train</li>
-                                    <li class="col-md-4">Takin a Chance ON Love</li>
+                                    <li class="col-md-4">Takin a Chance on Love</li>
                                     <li class="col-md-4">Tangerine</li>
                                     <li class="col-md-4">Teach Me Tonight</li>
                                     <li class="col-md-4">True Love</li>
-                                    <li class="col-md-4">Until I met You</li>
                                     <li class="col-md-4">Walk Right In</li>
-                                    <li class="col-md-4">Whiffenpoof Song</li>
-                                    <li class="col-md-4">Who's Sorry Now ?</li>
-                                    <li class="col-md-4">Willow weep for me</li>
-                                    <li class="col-md-4">You and the night and the music</li>
-                                    <li class="col-md-4">You Do Something to Me</li>
-                                    <li class="col-md-4">You stepped out of a dream</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-seven">Tango, ChaCha, Rhumba</a> </h4>
-                        </div>
-                        <div id="collapse-seven" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <ul class="list-unstyled">
-                                    <li class="col-md-4">Besame Mucho</li>
-                                    <li class="col-md-4">Brazil</li>
-                                    <li class="col-md-4">Cherry Pink</li>
-                                    <li class="col-md-4">Chu Chu Cha Cha</li>
-                                    <li class="col-md-4">Dansero</li>
-                                    <li class="col-md-4">Flamingo</li>
-                                    <li class="col-md-4">For All We Know</li>
-                                    <li class="col-md-4">Frenesi</li>
-                                    <li class="col-md-4">Green Eyes</li>
-                                    <li class="col-md-4">La Cumparasita</li>
-                                    <li class="col-md-4">Lady IN Red</li>
-                                    <li class="col-md-4">Latin Fantasy</li>
-                                    <li class="col-md-4">Mancini Medley</li>
-                                    <li class="col-md-4">Perfidia</li>
-                                    <li class="col-md-4">Poinciana</li>
-                                    <li class="col-md-4">Tea For Two Cha Cha</li>
-                                    <li class="col-md-4">Undecided Cha-Cha</li>
                                 </ul>
                             </div>
                         </div>
@@ -357,46 +263,26 @@ echo $buffer;
 <script type="text/javascript">
     //<![CDATA[
     $(document).ready(function() {
-
         new jPlayerPlaylist({
             jPlayer: "#jquery_jplayer_1",
             cssSelectorAncestor: "#jp_container_1"
-        }, [{
-                mp3: '../audio/coolcityband-15.mp3',
-                title: 'All The Way',
-
-            }, {
-                mp3: '../audio/coolcityband-01.mp3',
-                title: 'I Love Being Here With You',
-            }, {
-                mp3: '../audio/coolcityband-02.mp3',
-                title: 'Oo Shoo Be Do Be',
-            }, {
-                mp3: '../audio/coolcityband-04.mp3',
-                title: 'Route 66',
-            }, {
-                mp3: '../audio/coolcityband-05.mp3',
-                title: 'How Long Has This Been Going On?',
-            }, {
-                mp3: '../audio/coolcityband-06.mp3',
-                title: 'Accentuate The Positive',
-            },
-
-
-
-
-          
-            {
-             mp3:'../audio/coolcityband-08.mp3',
-        title:'Nice n\' Easy',
-            }, {
-                mp3:'../audio/coolcityband-09.mp3',
-        title:'Let The Good Times Roll',
-            }
-
-
-
-
+        }, [
+			{ mp3: '../audio/2018-05-01-signedsealed.mp3', title: 'Signed Sealed Delivered',},
+			{ mp3: '../audio/2018-05-01-stuckinthemiddle.mp3', title: 'Stuck In The Middle With You',},
+			{ mp3: '../audio/2018-05-01-rocksteady.mp3', title: 'Rock Steady',},
+			{ mp3: '../audio/2018-05-01-knockonwood.mp3', title: 'Knock on Wood',},
+			{ mp3: '../audio/2018-05-01-sway.mp3', title: 'Sway',},
+			{ mp3: '../audio/2018-05-01-accentuate.mp3', title: 'Accentuate the Positive',},
+			{ mp3: '../audio/2018-05-01-blueskies.mp3', title: 'Blue Skies',},
+			{ mp3: '../audio/2018-05-01-iwontdance.mp3', title: 'I Won\'t Dance',},
+			{ mp3: '../audio/2018-05-01-niceeasy.mp3', title: 'Nice and Easy',},
+			{ mp3: '../audio/2018-05-01-thewayyoulook.mp3', title: 'The Way You Look Tonight',},
+			{ mp3: '../audio/2018-05-01-whereorwhen.mp3', title: 'Where or When',},
+			{ mp3: '../audio/coolcityband-01.mp3', title: 'I Love Being Here With You',}, 
+			{ mp3: '../audio/coolcityband-04.mp3', title: 'Route 66',}, 
+			{ mp3: '../audio/2018-05-01-gotitbad.mp3', title: 'I\'ve Got It Bad',},
+			{ mp3: '../audio/coolcityband-05.mp3', title: 'How Long Has This Been Going On?',}, 
+			{ mp3: '../audio/coolcityband-09.mp3', title: 'Let The Good Times Roll',}	
         ], {
             swfPath: "../dist/jplayer",
             supplied: "oga, mp3",
@@ -406,7 +292,6 @@ echo $buffer;
             smoothPlayBar: true,
             keyEnabled: true
         });
-
         $("#jplayer_inspector_1").jPlayerInspector({
             jPlayer: $("#jquery_jplayer_1")
         });

@@ -1,0 +1,165 @@
+
+.carousel-inner {
+  background: #000000;
+}
+
+
+
+.carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 30px;
+  bottom: inherit;
+  z-index: 10;
+  padding-top: inherit;
+  padding-bottom: inherit;
+  color: @carousel-caption-color;
+  text-align: left;
+  //text-shadow: @carousel-text-shadow;
+  .caption-block {
+
+    background:rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 19px 8px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 19px 8px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 19px 8px rgba(0,0,0,0.7);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 48px;
+    color: #FFF3BF;
+    padding: 5px;
+    text-shadow:#2e2e2e 0 4px 5px;
+    line-height: 1.1;
+  }
+}
+
+.carousel-caption.one{
+  top: 67px;
+  left: 23%;
+  width: 481px;
+}
+
+
+.carousel-caption.two{
+  top: 154px;
+  left: 16%;
+  width: 559px;
+ }
+
+
+.carousel-caption.three{
+  top: 50px;
+  left: 60%;
+  width: 387px;
+}
+
+.carousel-caption.four{
+  top: 83px;
+  left: 15%;
+  width: 486px;
+}
+
+.carousel-caption.five{
+  top: 83px;
+  left: 15%;
+  width: 486px;
+}
+
+@media (max-width: @screen-xs-max) {
+
+
+  .carousel-caption {
+
+    .caption-block {
+
+
+      font-size: 20px;
+
+    }
+  }
+
+  .carousel-caption{
+
+  }
+
+  .carousel-caption.one{
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    MARGIN-LEFT: AUTO;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
+  .carousel-caption.two{
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    MARGIN-LEFT: AUTO;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
+  .carousel-caption.three{
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    MARGIN-LEFT: AUTO;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .carousel-caption.four{
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    MARGIN-LEFT: AUTO;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .carousel-caption.five{
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    MARGIN-LEFT: AUTO;
+    margin-right: auto;
+    text-align: center;
+  }
+
+}
+
+
+// Scale up controls for tablets and up
+
+@media (max-width: @screen-xs-max) {
+  // Scale up the controls a smidge
+  .carousel-control {
+    .glyphicon-chevron-left,
+    .glyphicon-chevron-right,
+    .icon-prev,
+    .icon-next {
+      font-size: 85px;
+      margin-top: -30px;
+    }
+
+
+  }
+
+  // Show and left align the captions
+  .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+
+  // Move up the indicators
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}

@@ -141,7 +141,7 @@ echo $buffer;
                         <p>Founder/Leader</p>
                         <ul class="list-inline">
                             <li><a href="https://www.facebook.com/Cool-City-Band-149866258393477/?fref=ts"><i class="fa fa-2x fa-facebook-square"></i><span class="sr-only">Cool City Facebook Page</span></a></li>
-                            <li><a href="mailto:ieb@prodigy.net,RGeesa@gregoryappel.com"><i class="fa fa-2x fa-envelope"></i><span class="sr-only">Email Us</span></a></li>
+                            <li><a href="mailto:ieb@prodigy.net,roygeesa@gmail.com"><i class="fa fa-2x fa-envelope"></i><span class="sr-only">Email Us</span></a></li>
                         </ul>
                     </div>
                 </div>

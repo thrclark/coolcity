@@ -154,26 +154,18 @@ echo $buffer;
         <div class="row section-content">
             <div class="col-lg-12">
                 <h2 class="page-header">From Our Clients</h2>
-                
-                
-                
-                
-
-
-    <div class="text-block">
+                <div class="text-block">
+                    <p>I write this as a solid recommendation of the Cool City Band. For the better part of 10 years we have had this wonderful band in our monthly rotation here at The Jazz Kitchen. We are a dinner / dancing / live music venue that specializes in jazz of all kinds. The Cool City Band mostly performs big band classics and danceable hits from the Motown and R&B oldies songbooks. Something of special note is that I seldom book a band every month, but Roy Geesa and his band seem to always be evolving and adding new musical perspectives. They are a huge hit with their fans and in addition to being very versatile and utilizing a number of stellar performers they are a complete class act and a great compliment to our establishment. I would again highly recommend this great group for your next event!</p>
+                    <footer>David Allee <cite title="Source Title">Owner, The Jazz Kitchen</cite></footer>
+                </div>
+                <div class="text-block">
                     <p>Thank you for doing such a great job at our wedding on April 17! The band was so much fun! We've gotten so many compliments on the music.</p>
                     <footer>Kim &amp; Gabe <cite title="Source Title">Bride and Groom</cite></footer>
                 </div>
-
-
-    <div class="text-block">
+                <div class="text-block">
                     <p>Just came home from an event in Columbus Indiana at the Commons and you guys were fantastic.  Honestly, so great.  Thought you should know everyone was very pleased and talking about how fun you were.</p>
                     <footer>Sue <cite title="Source Title">Event Participant</cite></footer>
                 </div>
-
-
-
-
                 <div class="text-block">
                     <p>Thank you so much for helping to make our Gala a smashing success. We are so grateful and appreciative of such wonderful talent and professionalism. Please pass our accolades on to all the artists who Gave it their all and made us look so very good!</p>
                     <footer>Donna <cite title="Source Title">Event Organizer</cite></footer>

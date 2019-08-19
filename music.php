@@ -82,7 +82,7 @@ echo $buffer;
             <div class="col-lg-6 video">
                 <h3>Video</h3>
                 <div class="well well-sm">
-                    <iframe src="https://www.youtube.com/embed/DGY3AqC5Jyg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/SnCspB1kUlw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-lg-12">

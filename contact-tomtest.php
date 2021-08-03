@@ -1,39 +1,42 @@
-<?php
-if ( isset( $_POST[ 'submit' ] ) ) {
-    //$to = "roygeesa@gmail.com"; // this is your Email address
-    $to = "rgeesa@aol.com"; // this is your Email address
-    
-    $from = $_POST[ 'email' ]; // this is the sender's Email address
-    $first_name = $_POST[ 'first_name' ];
-    $last_name = $_POST[ 'last_name' ];
-    $phone_number = $_POST[ 'phone_number' ];
+<?php 
+if(isset($_POST['submit'])){
+    $to = "thrclark@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $phone_number = $_POST['phone_number'];
     $subject = "Cool City info request";
     $subject2 = "Cool City - thank you!";
-    $message = $first_name . " " . $last_name . "(" . $phone_number . ")" . " wrote the following:" . "\n\n" . $_POST[ 'message' ];
-    $message2 = "Thank you for contacting Cool City. Here is a copy of your message, " . $first_name . "\n\n" . $_POST[ 'message' ];
+    $message = $first_name . " " . $last_name . "(" .$phone_number.")".  " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Thank you for contacting Cool City. Here is a copy of your message, " . $first_name . "\n\n" . $_POST['message'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
-    mail( $to, $subject, $message, $headers );
-    mail( $from, $subject2, $message2, $headers2 ); // sends a copy of the message to the sender
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     //echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-
-    header( 'Location:  contact-confirm.php' );
-
-
+    
+    header('Location:  contact-confirm.php');
+    
+    
     // You can also use header('Location: thank_you.php'); to redirect to another page.
-}
+    }
 ?>
 
 <!DOCTYPE html>
-
 <head>
 <title>Form submission</title>
-<?php include ('includes/head.php') ?>
+    
+    <?php include ('includes/head.php') ?>
+    
+    
 </head>
 <body>
+    
 <?php include ('includes/navigation.php') ?>
-<section class="section1">
+    
+    
+    <section class="section1">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -49,6 +52,7 @@ if ( isset( $_POST[ 'submit' ] ) ) {
                 <!--   <form action="gdform.php" method="post" data-toggle="validator">   -->
                 
                 <form action="" method="post">
+            
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>First Name:</label>
@@ -56,13 +60,17 @@ if ( isset( $_POST[ 'submit' ] ) ) {
                             <p class="help-block"></p>
                         </div>
                     </div>
-                    <div class="control-group form-group">
+                    
+                    
+                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Last Name:</label>
                             <input type="text" class="form-control" name="last_name" id="lastname">
                             <p class="help-block"></p>
                         </div>
                     </div>
+                    
+                    
                     <div class="control-group form-group">
                     <div class="controls">
                         <label>Phone Number:</label>
@@ -87,10 +95,14 @@ if ( isset( $_POST[ 'submit' ] ) ) {
                     <div class="g-recaptcha" data-sitekey="6LfPEUgUAAAAAK6qh-QNr-3NhQ91UAoaOq8GNt7p"></div>
                     <br>
                     <br>
-                    <!-- For success/fail messages --> 
-                    <!-- <button type="submit" class="btn btn-primary" id="#submitform">Send Message</button>-->
-                    
-                    <input type="submit" class="btn btn-primary" name="submit" value="Submit">
+                    <!-- For success/fail messages -->
+                   <!-- <button type="submit" class="btn btn-primary" id="#submitform">Send Message</button>-->
+                        
+                        
+                        <input type="submit" class="btn btn-primary" name="submit" value="Submit">
+                        
+                        
+                        
                 </form>
             </div>
             <div class="col-md-4"> </div>
@@ -98,12 +110,13 @@ if ( isset( $_POST[ 'submit' ] ) ) {
         <div class="col-md-4">
             <h3>Leader/Conductor/Pianist</h3>
             <p><strong>Roy Geesa</strong></p>
-           
-            <p><i class="fa fa-phone"></i> 317-529-3640 (text/voice)</p>
-            <p><i class="fa fa-envelope-o"></i> <a href="mailto:roygeesa@gmail.com">roygeesa@gmail.com</a> </p>
+            <p> <i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: 317.926.7566</p>
+            <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: 317-529-3640 (cell)</p>
+            <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:roygeesa@gmail.com">roygeesa@gmail.com</a> </p>
             <ul class="list-unstyled list-inline list-social-icons">
                 <li> <a href="https://www.facebook.com/Cool-City-Band-149866258393477/?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a> </li>
             </ul>
+           
         </div>
         <!-- /.row --> 
         
@@ -111,5 +124,9 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 </section>
 <?php include ('includes/stayintouch.php') ?>
 <?php include ('includes/footer.php') ?>
+    
+    
+ 
+
 </body>
-</html>
+</html> 

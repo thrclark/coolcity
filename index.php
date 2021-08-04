@@ -66,7 +66,7 @@ echo $buffer;
             </div>
             <div class="col-md-4 img-portfolio"> <img class="img-responsive img-hover img-thumbnail" src="img/marketing/weddings.png" alt="Cool City Band">
                 <h3>Weddings</h3>
-                <p>Make your wedding unforgettable. Cool City Band provides the perfect atmosphere to make your wedding reception the event of a lifetime. Special requests for your first dance? We can do it! <a class="" href="contact.php">Book now!</a></p>
+                <p>Make your wedding unforgettable. Cool City Band provides the perfect atmosphere to make your wedding reception the event of a lifetime. We specialize in music for all ages. <a class="" href="contact.php">Book now!</a></p>
             </div>
             <div class="col-md-4 img-portfolio"> <img class="img-responsive img-hover img-thumbnail" src="img/marketing/galas.png" alt="Laney Wilson">
                 <h3>Fund Raisers / Galas</h3>
@@ -89,18 +89,18 @@ echo $buffer;
             <div class="col-lg-12">
                 <h2 class="page-header">Calendar</h2>
             </div>
-            <div  class="col-md-9">
-                <h3>Vegas Swing Nights</h3>
+           <!-- <div  class="col-md-9">
+               <h3>Vegas Swing Nights</h3>
                 <p>Viva Las Vegas! Come join us every third Tuesday at the <a href="http://www.thejazzkitchen.com/" target="_blank">Jazz Kitchen</a> for an exciting evening of music, dance, and great food and drink. The Cool City Band kicks it up with dance favorites from Frank Sinatra, Dean Martin, Ray Charles, Etta James, Voodo Daddy, Michael Buble, and many others. Bring your dancing shoes and be prepared to dance the night away!</p>
                 <ul>
                     <li><strong>When</strong>: Every third Tuesday of each month</li>
                     <li><strong>Where</strong>: <a href="http://www.thejazzkitchen.com/" target="_blank">Jazz Kitchen, </a>5377 N College Ave, Indianapolis, IN 46220</li>
                 </ul>
             </div>
-            <div class="col-md-3 img-portfolio"><img class="img-responsive img-hover img-thumbnail" src="img/swingnight.jpg" alt="Vegas Swing Night banner"/></div>
+            <div class="col-md-3 img-portfolio"><img class="img-responsive img-hover img-thumbnail" src="img/swingnight.jpg" alt="Vegas Swing Night banner"/></div>-->
             <div  class="col-md-9">
                 <h3>Fountain Square Swing Dance</h3>
-                <p>It's Indy's hottest swing dance party! Come join us for a basic lesson with Naptown Stomp at 7:30pm and then the Cool City Band at 8:30pm - 11:30pm with some of the best swing sounds around! Admission $12 at 7:30pm or $10 at 8:30pm. All ages welcome, cash bar or restaurants available for food and beverage purchases.s</p>
+                <p>It's Indy's hottest swing dance party! Come join us for a basic lesson with Naptown Stomp at 7:30pm and then the Cool City Band at 8:30pm - 11:30pm with some of the best swing sounds around! Admission $12 at 7:30pm or $10 at 8:30pm. All ages welcome, cash bar or restaurants available for food and beverage purchases.</p>
                 <ul>
                     <li><strong>When</strong>: Check the Fountain Square <a href="http://www.fountainsquareindy.com/" target="_blank">calendar</a> for dates throughout the year</li>
                     <li><strong>Where</strong>: <a href="http://www.fountainsquareindy.com/" target="_blank">Fountain Square, </a>1111 Prospect St, Indianapolis, IN 46203</li>

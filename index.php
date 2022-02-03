@@ -78,7 +78,7 @@ echo $buffer;
             </div>
             <div class="col-lg-12">
                 <h3 class="">Unforgettable Live Music</h3>
-                <p> Whether you are looking for a full 11 piece band and DJ, a quintet or a trio this experienced group of top-notch musicians has you covered. Cool City Band offers a variety of <a href="packages.php">live music packages</a> appropriate for any occasion including weddings, anniversaries, galas, concerts and fundraisers. With years of experience performing in Indianapolis, Chicago, Louisville, Cincinnati and throughout the Midwest, Cool City is professional, reliable and impressive. <a href="music.php">Give a listen</a> to the Cool City Band in action. Live wedding music makes a memorable day unforgettable.</p>
+                <p> Whether you are looking for a full 11 piece band and DJ, a quintet or a trio this well established and experienced group of top-notch musicians has you covered. The Cool City Band offers a variety of <a href="packages.php">live music packages</a> appropriate for any occasion including weddings, anniversaries, galas, concerts and fundraisers. With years of experience performing in Indianapolis, Chicago, Louisville, Cincinnati and throughout the Midwest, Cool City is professional, reliable and impressive. <a href="music.php">Give a listen</a> to the Cool City Band in action. Live wedding music makes a memorable day unforgettable.</p>
             </div>
         </div>
     </div>

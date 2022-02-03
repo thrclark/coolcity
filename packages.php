@@ -34,7 +34,7 @@ echo $buffer;
                         <a class="btn btn-primary" href="contact.php">Get a Quote</a>
                         <ul>
                             <li>Pianist for cocktails/Trio for dinner</li>
-                            <li>11pc band with vocals for dancing</li>
+                            <li>Full band with vocals for dancing</li>
                             <li>DJ/event emcee services</li>
                             <li><a href="#" data-toggle="modal" data-target="#package1">more info </a></li>
                         </ul>
@@ -44,7 +44,7 @@ echo $buffer;
                         <a class="btn btn-success" href="contact.php">Get a Quote</a>
                         <ul>
                             <li>Pianist for cocktails/Trio for dinner</li>
-                            <li>11pc band with vocals for dancing</li>
+                            <li>Full band with vocals for dancing</li>
                             <li>Event emcee services</li>
                             <li><a href="#" data-toggle="modal" data-target="#package2">more info </a></li>
                         </ul>

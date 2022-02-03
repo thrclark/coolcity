@@ -8,10 +8,10 @@ $page = 'testimonials';
 <head>
 <?php
 ob_start();
-include("includes/head.php");
-$buffer=ob_get_contents();
+include( "includes/head.php" );
+$buffer = ob_get_contents();
 ob_end_clean();
-$buffer=str_replace("%TITLE%","Cool City Band - Testimonials",$buffer);
+$buffer = str_replace( "%TITLE%", "Cool City Band - Testimonials", $buffer );
 echo $buffer;
 ?>
 <meta name="description" content="Cool City Band wedding, fundraiser, gala and special event customers have great things to say about our premiere musicians and vocalists.">
@@ -42,6 +42,18 @@ echo $buffer;
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="http://www.independentagent.com/default.aspx" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-iia.png" alt="Independent Insurance Agents of Indiana"> </a></div>
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.rotary.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-rotary.png" alt="Rotary International"> </a></div>
             <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.kappaalphatheta.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-kappa.png" alt="Kappa Alpha Theta"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.icclos.com/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-conventioncenter.png" alt="Indianapolis convention center"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.agc.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-agc.png" alt="Associated General contractors of America"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.invma.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-ivma.png" alt="Indiana veterinary medical Association"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://preventblindness.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-preventblindness.png" alt="Prevent blindness"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://emuseum.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-evansville.png" alt="Evansville museum"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.myunionhealth.org/patients-and-visitors/on-site-dining/union-hospital-terre-haute" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-union.png" alt="Union hospital"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://ihcindy.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-ihc.png" alt="Indianapolis Hebrew congregation"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.irvingtonhistory.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-irvington.png" alt="Irvington historical society"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.in-afp.org/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-iafp.png" alt="Indiana Academy of family physicians"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.paceint.com/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-pace.png" alt="Pace international"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.iu.edu/index.html" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-iu.png" alt="Indiana University"> </a></div>
+            <div class="col-xs-6 col-md-2 img-portfolio"><a href="https://www.depauw.edu/" target="_blank"> <img class="img-responsive img-hover" src="img/clients/clients-depauw.png" alt="DePauw university"> </a></div>
             <div class="col-lg-12">
                 <h3>Private Parties and Weddings</h3>
                 <div class="text-block">

@@ -100,7 +100,7 @@ echo $buffer;
             <div class="col-md-3 img-portfolio"><img class="img-responsive img-hover img-thumbnail" src="img/swingnight.jpg" alt="Vegas Swing Night banner"/></div>-->
             <div  class="col-md-9">
                 <h3>Fountain Square Swing Dance</h3>
-                <p>It's Indy's hottest swing dance party! Come join us for a basic lesson with Naptown Stomp at 7:30pm and then the Cool City Band at 8:30pm - 11:30pm with some of the best swing sounds around! Admission $12 at 7:30pm or $10 at 8:30pm. All ages welcome, cash bar or restaurants available for food and beverage purchases.</p>
+                <p>It's Indy's hottest swing dance party! Come join us for a basic lesson with Naptown Stomp at 7:30pm and then the Cool City Band at 8:30pm - 11:30pm with some of the best swing sounds around! Admission $14 at 7:30pm or $12 at 8:30pm. All ages welcome, cash bar or restaurants available for food and beverage purchases.</p>
                 <ul>
                     <li><strong>When</strong>: Check the Fountain Square <a href="http://www.fountainsquareindy.com/" target="_blank">calendar</a> for dates throughout the year</li>
                     <li><strong>Where</strong>: <a href="http://www.fountainsquareindy.com/" target="_blank">Fountain Square, </a>1111 Prospect St, Indianapolis, IN 46203</li>

@@ -8,6 +8,7 @@
 <script type='text/javascript' src='bower_components/fullcalendar/dist/gcal.js'></script>
 <script type='text/javascript' src='js/fotorama/fotorama.js'></script>
 <script type='text/javascript' src='js/validator.min.js'></script>
+<script type='text/javascript' src='js/papaparse.min.js'></script>
 
 <!--SEO-->
 <script type="application/ld+json">

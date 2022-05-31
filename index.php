@@ -1,4 +1,3 @@
-
 <?php
 # Variables
 $page = 'home';
@@ -9,13 +8,32 @@ $page = 'home';
 <head>
 <?php
 ob_start();
-include("includes/head.php");
-$buffer=ob_get_contents();
+include( "includes/head.php" );
+$buffer = ob_get_contents();
 ob_end_clean();
-$buffer=str_replace("%TITLE%","Indianapolis Wedding Music, Live Event Band and Gala Fundraiser Entertainment",$buffer);
+$buffer = str_replace( "%TITLE%", "Indianapolis Wedding Music, Live Event Band and Gala Fundraiser Entertainment", $buffer );
 echo $buffer;
 ?>
 <meta name="description" content="Cool City Band – live music, weddings, fundraisers, galas, special events, and concerts. Experienced, talented musicians and vocalists play a variety of popular tunes.">
+<style>
+.cal-block {
+	max-width: 600px;
+}
+.cal-date {
+	font-size: 2rem;
+}
+.cal-location {
+	margin-bottom: 1rem
+}
+.cal-description {
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+	border-bottom: solid 1px #ADADAD;
+}
+.cal-block:last-child .cal-description {
+	border-bottom: none;
+}
+</style>
 </head>
 
 <body>
@@ -89,28 +107,15 @@ echo $buffer;
             <div class="col-lg-12">
                 <h2 class="page-header">Calendar</h2>
             </div>
-           <!-- <div  class="col-md-9">
-               <h3>Vegas Swing Nights</h3>
-                <p>Viva Las Vegas! Come join us every third Tuesday at the <a href="http://www.thejazzkitchen.com/" target="_blank">Jazz Kitchen</a> for an exciting evening of music, dance, and great food and drink. The Cool City Band kicks it up with dance favorites from Frank Sinatra, Dean Martin, Ray Charles, Etta James, Voodo Daddy, Michael Buble, and many others. Bring your dancing shoes and be prepared to dance the night away!</p>
-                <ul>
-                    <li><strong>When</strong>: Every third Tuesday of each month</li>
-                    <li><strong>Where</strong>: <a href="http://www.thejazzkitchen.com/" target="_blank">Jazz Kitchen, </a>5377 N College Ave, Indianapolis, IN 46220</li>
-                </ul>
-            </div>
-            <div class="col-md-3 img-portfolio"><img class="img-responsive img-hover img-thumbnail" src="img/swingnight.jpg" alt="Vegas Swing Night banner"/></div>-->
-            <div  class="col-md-9">
-                <h3>Fountain Square Swing Dance</h3>
-                <p>It's Indy's hottest swing dance party! Come join us for a basic lesson with Naptown Stomp at 7:30pm and then the Cool City Band at 8:30pm - 11:30pm with some of the best swing sounds around! Admission $14 at 7:30pm or $12 at 8:30pm. All ages welcome, cash bar or restaurants available for food and beverage purchases.</p>
-                <ul>
-                    <li><strong>When</strong>: Check the Fountain Square <a href="http://www.fountainsquareindy.com/" target="_blank">calendar</a> for dates throughout the year</li>
-                    <li><strong>Where</strong>: <a href="http://www.fountainsquareindy.com/" target="_blank">Fountain Square, </a>1111 Prospect St, Indianapolis, IN 46203</li>
-                </ul>
-            </div>
-            <div class="col-md-3 img-portfolio"><img class="img-responsive img-hover img-thumbnail" src="img/fountainsquare.jpg" alt="Fountain Square Dance banner"/></div>
-            <div class="col-md-12">
-                <h3>Events </h3>
-                <div class="well" style="background-color:#D4D1C2" id="calendar"></div>
-            </div>
+            
+            <!--                <div class="input-group">
+                    <input type="text" id="quicksearch" class="form-control" placeholder="Search" />
+                </div>
+                <div id="filter" class="btn-group" role="group">
+                    <button id="allbuttons" class="btn btn-default is-checked" data-value="*">Show All</button>
+                </div>-->
+            
+            <div class="col-lg-12" id="database"> </div>
         </div>
     </div>
 </section>
@@ -185,6 +190,119 @@ echo $buffer;
 
 <!-- /.container -->
 <?php include ('includes/scripts.php') ?>
+<script id="rendered-js" >
+// Get Google sheet data using Papa Parse example by Frank Bültge - www.frankbueltge.de
+// Code published here: https://github.com/frrrrank/Google-Sheet-Stuff
+// Instructions can be found here: https://frankbueltge.de/en/google-sheets-as-database-or-tiny-cms/
+
+// Publish your sheet to the web and use the URL you get from the sharing option on the top/right of the sheet and add /pub?output=csv at the end of the URL      
+
+	
+//var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/13lP-96izM95kbpBlY9Wx1XfcyPNF9Lsc26ApQN-95Qo/pub?output=csv';
+
+	
+var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1ZsyIJDmDDLBvsiBRiJZ_DL-KtAJJxXN-Q0CyFNXHaT4/pub?output=csv';	
+	
+	
+	
+	
+	
+var qsRegex;
+var buttonFilter;
+var $quicksearch = $('#quicksearch');
+var $container = $('#database');
+var timeout;
+
+function init() {
+  Papa.parse(public_spreadsheet_url, {
+    download: true,
+    header: true,
+    complete: showInfo });
+
+}
+window.addEventListener('DOMContentLoaded', init);
+
+function showInfo(results) {
+  var data = results.data;
+  var result = [];
+  var count = 1;
+  // data comes through as a simple array since simpleSheet is turned on
+  // alert("Successfully processed " + data.length + " rows!");
+  // console.log(data);
+
+  // loop to get the data from JSON and write it to the div's with the id's database and quicksearch 
+  $.each(data, function (i, v) {
+    // Parses the resulting JSON into the individual squares for each row
+    $container.append('<div class="cal-block" id="element-item"><div class="cal-date">' + v.date + '</div><div class="cal-location">' + v.location + '</div><div class="cal-description">' + v.description + '</div></div>');
+    // Gets all unique filtercategory values and puts them into an array
+    if ($.inArray(v.Filter_category, result) == -1) {
+      result.push(v.Filter_category);
+      // Creates the filter buttons
+      $('#filter').append('<button id="' + v.Filter_category + '" class="btn btn-default" data-value="choice' + count++ + '">' + v.Filter_category + '</button>');
+    }
+  });
+  // search function
+  $quicksearch.keyup(debounce(function () {
+    qsRegex = new RegExp($quicksearch.val(), 'gi');
+    $container.isotope();
+  }));
+  //  wait until images are loaded 
+  $container.imagesLoaded(function () {
+    // Sorts them into responsive square layout using isotope.js
+    $container.isotope({
+      itemSelector: '#element-item',
+      layoutMode: 'masonry',
+      // so that isotope will filter both search and filter results
+      filter: function () {
+        var $this = $(this);
+        var searchResult = qsRegex ? $this.text().match(qsRegex) : true;
+        var buttonResult = buttonFilter ? $this.is(buttonFilter) : true;
+        return searchResult && buttonResult;
+      } });
+
+  });
+  // debounce so filtering doesn't happen every millisecond
+  function debounce(fn, threshold) {
+    return function debounced() {
+      if (timeout) {
+        clearTimeout(timeout);
+      }
+
+      function delayed() {
+        fn();
+        timeout = null;
+      }
+      timeout = setTimeout(delayed, threshold || 100);
+    };
+  }
+  // Adds a click function to all buttons in the group
+  $('.btn-group').each(function (i, buttonGroup) {
+    var $buttonGroup = $(buttonGroup);
+    var allbuttonids = $("button").attr('id');
+    $buttonGroup.on('click', 'button', function () {
+      // Changes to .is-checked class when clicked
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      $(this).addClass('is-checked');
+      // Gets all values that matches the clicked button's data value
+      buttonFilter = $(this).attr('data-value');
+      textFilter = $(this).text();
+
+      function getitems() {
+        var name = $(this).find('.category').text();
+        if (textFilter != "Show All") {
+          return name.match(textFilter);
+        } else {
+          return "*";
+        }
+      }
+      buttonFilter = getitems || buttonFilter;
+      $container.isotope();
+    });
+  });
+}
+//# sourceURL=pen.js
+    </script> 
+
 <!-- Script to Activate the Carousel --><script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed

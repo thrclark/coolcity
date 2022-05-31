@@ -15,29 +15,26 @@ $buffer = str_replace( "%TITLE%", "Indianapolis Wedding Music, Live Event Band a
 echo $buffer;
 ?>
 <meta name="description" content="Cool City Band – live music, weddings, fundraisers, galas, special events, and concerts. Experienced, talented musicians and vocalists play a variety of popular tunes.">
-
-	<style>
-		.cal-block {
-			max-width: 400px;
-		}
-		.cal-date {
-			font-size: 2rem;
-		}
-		.cal-location {
-			margin-bottom: 1rem
-		}
-		.cal-description {
-			padding-bottom: 2rem;
-			margin-bottom: 2rem;
-			border-bottom: solid 1px #ADADAD;
-			
-		}
-	
-	
-	</style>
-	
-	
-	</head>
+<style>
+.cal-block {
+	max-width: 600px;
+}
+.cal-date {
+	font-size: 2rem;
+}
+.cal-location {
+	margin-bottom: 1rem
+}
+.cal-description {
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+	border-bottom: solid 1px #ADADAD;
+}
+.cal-block:last-child .cal-description {
+	border-bottom: none;
+}
+</style>
+</head>
 
 <body>
 <!-- Navigation -->
@@ -108,7 +105,7 @@ echo $buffer;
     <div class="container">
         <div class="row section-content" >
             <div class="col-lg-12">
-                <h2 class="page-header">Calendar - new</h2>
+                <h2 class="page-header">Calendar</h2>
             </div>
             
             <!--                <div class="input-group">
@@ -118,22 +115,7 @@ echo $buffer;
                     <button id="allbuttons" class="btn btn-default is-checked" data-value="*">Show All</button>
                 </div>-->
             
-            <div class="col-lg-12" id="database">
-                <div class="cal-block">
-                    <div class="cal-date"> June 7, 2022</div>
-                    <div class="cal-location"> Carnegie Hall</div>
-                    <div class="cal-description">Description goes here asdf asdf asdf asdf asdf asdf asdf asfd asdf asdf asdf asdf asdf asdf asdf asdf asdf as df.</div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
+            <div class="col-lg-12" id="database"> </div>
         </div>
     </div>
 </section>
@@ -214,8 +196,17 @@ echo $buffer;
 // Instructions can be found here: https://frankbueltge.de/en/google-sheets-as-database-or-tiny-cms/
 
 // Publish your sheet to the web and use the URL you get from the sharing option on the top/right of the sheet and add /pub?output=csv at the end of the URL      
-var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/13lP-96izM95kbpBlY9Wx1XfcyPNF9Lsc26ApQN-95Qo/pub?output=csv';
 
+	
+//var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/13lP-96izM95kbpBlY9Wx1XfcyPNF9Lsc26ApQN-95Qo/pub?output=csv';
+
+	
+var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1ZsyIJDmDDLBvsiBRiJZ_DL-KtAJJxXN-Q0CyFNXHaT4/pub?output=csv';	
+	
+	
+	
+	
+	
 var qsRegex;
 var buttonFilter;
 var $quicksearch = $('#quicksearch');
@@ -242,7 +233,7 @@ function showInfo(results) {
   // loop to get the data from JSON and write it to the div's with the id's database and quicksearch 
   $.each(data, function (i, v) {
     // Parses the resulting JSON into the individual squares for each row
-    $container.append('<div id="element-item"><div class="category">' + v.Filter_category + '</div><img src="' + v.Pic_Link + '"><div class="name">' + v.Title + '</div><div class="boldsubhed">' + v.Location + '</div><div class="boldsubhed">' + v.City + '</div><div class="description">' + v.Date + '</div><div class="readmore"><a href="' + v.Website + ' " target="_blank">Website</a></div></div>');
+    $container.append('<div class="cal-block" id="element-item"><div class="cal-date">' + v.date + '</div><div class="cal-location">' + v.location + '</div><div class="cal-description">' + v.description + '</div></div>');
     // Gets all unique filtercategory values and puts them into an array
     if ($.inArray(v.Filter_category, result) == -1) {
       result.push(v.Filter_category);
